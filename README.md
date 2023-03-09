@@ -8,8 +8,9 @@ This Python script can be used to fetch information about an IP address or a dom
 2. requests and sty libraries installed (can be installed via pip)
 
 ### Usage
-``bash 
-python ip_info.py <IP or Domain>``
+```bash 
+python ip_info.py <IP or Domain>
+```
 
 The script takes one argument, which can be either an IP address or a domain name.
 
