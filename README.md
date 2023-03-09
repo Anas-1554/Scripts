@@ -1,13 +1,16 @@
-IP Address Information Script
-This Python script can be used to fetch information about an IP address or a domain name. It uses the ipinfo.io API to get the information and prints it in a nice colored format using the sty library.
+# CIP ( Check IP Information)
 
-Requirements
-Python 3.x
-requests and sty libraries installed (can be installed via pip)
-Usage
-bash
-Copy code
-python ip_info.py <IP or Domain>
+This Python script can be used to fetch information about an IP address or a domain name. It uses the `ipinfo.io` API to get the information and prints it in a nice colored format using the sty library.
+
+## Requirements
+
+1. Python 3.x
+2. requests and sty libraries installed (can be installed via pip)
+
+### Usage
+`bash 
+python ip_info.py <IP or Domain>`
+
 The script takes one argument, which can be either an IP address or a domain name.
 
 API Token
