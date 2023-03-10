@@ -9,7 +9,7 @@ This Python script can be used to fetch information about an IP address or a dom
 
 ### Usage
 ```bash 
-$ python ip_info.py <IP or Domain>
+$ python cip.py <IP or Domain>
 ```
 
 The script takes one argument, which can be either an IP address or a domain name.
@@ -32,7 +32,7 @@ The information is printed in a nicely formatted and colored output.
 
 ### Example
 ```bash
-$ python ip_info.py google.com
+$ python cip.py google.com
 
 IP address: 142.251.33.206
 
