@@ -15,7 +15,7 @@ python ip_info.py <IP or Domain>
 The script takes one argument, which can be either an IP address or a domain name.
 
 ### API Token
-The API_TOKEN variable at the top of the script should be set to your own ipinfo.io API token. You can get a token by signing up at https://ipinfo.io/signup.
+The `API_TOKEN` variable at the top of the script should be set to your own ipinfo.io API token. You can get a token by signing up at https://ipinfo.io/signup.
 
 ### Output
 The script outputs the following information about the IP address or domain name:
