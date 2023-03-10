@@ -49,5 +49,7 @@ Location: 50.1212,8.6366
 ### Credits
 
 The requests library: https://requests.readthedocs.io/en/master/
+
 The sty library: https://sty.mewo.dev/
+
 The ipinfo.io API: https://ipinfo.io/
