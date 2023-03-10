@@ -14,19 +14,19 @@ python ip_info.py <IP or Domain>
 
 The script takes one argument, which can be either an IP address or a domain name.
 
-API Token
+### API Token
 The API_TOKEN variable at the top of the script should be set to your own ipinfo.io API token. You can get a token by signing up at https://ipinfo.io/signup.
 
-Output
+### Output
 The script outputs the following information about the IP address or domain name:
-
+```bash
 IP address
 Organization (if available)
 Hostname (if available)
 Country
 Region
 City
-Location (latitude and longitude)
+Location (latitude and longitude)```
 The information is printed in a nicely formatted and colored output.
 
 Example
