@@ -26,12 +26,12 @@ Hostname (if available)
 Country
 Region
 City
-Location (latitude and longitude)```
+Location (latitude and longitude)
+```
 The information is printed in a nicely formatted and colored output.
 
-Example
-bash
-Copy code
+### Example
+```bash
 python ip_info.py google.com
 Output:
 
@@ -47,7 +47,10 @@ Region: Hesse
 City: Frankfurt am Main
 
 Location: 50.1212,8.6366
-Credits
+```
+
+### Credits
+
 The requests library: https://requests.readthedocs.io/en/master/
 The sty library: https://sty.mewo.dev/
 The ipinfo.io API: https://ipinfo.io/
