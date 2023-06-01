@@ -4,11 +4,11 @@ Welcome to the Python Scripts! This repository contains a collection of Python s
 
 ## Scripts
 
-1. [**password_generator.py**: This script generates a random string of specified length. I like to call it pass](https://github.com/Anas-1554/scripts/tree/main/password)
+1. [**pass.py**: This script generates a random string of specified length. I like to call it pass](https://github.com/Anas-1554/scripts/tree/main/password)
 
 2. [**cip.py**: This script retrieves information about IP addresses or domain names using the ipinfo.io API. I like to call it CIP ( Check IP info)](https://github.com/Anas-1554/scripts/tree/main/cip)
 
-3. [**folder_size_analyzer.py**: This script analyzes the sizes of folders in the root directory of your system.](https://github.com/Anas-1554/scripts/tree/main/filesize) 
+3. [**file.py**: This script analyzes the sizes of folders in the root directory of your system.](https://github.com/Anas-1554/scripts/tree/main/filesize) 
 
 ## Prerequisites
 
