@@ -1,55 +1,36 @@
-# CIP ( Check IP Information)
+# Python Scripts
 
-This Python script can be used to fetch information about an IP address or a domain name. It uses the `ipinfo.io` API to get the information and prints it in a nice colored format using the sty library.
+Welcome to the Python Scripts! This repository contains a collection of Python scripts for various purposes.
 
-## Requirements
+## Scripts
 
-1. Python 3.x
-2. requests and sty libraries installed (can be installed via pip)
+1. **random_string_generator.py**: This script generates a random string of specified length. I like to call it pass
 
-### Usage
-```bash 
-$ python cip.py <IP or Domain>
-```
+2. **ip_info.py**: This script retrieves information about IP addresses or domain names using the ipinfo.io API. I like to call it CIP ( Check IP info)
 
-The script takes one argument, which can be either an IP address or a domain name.
+3. **folder_size_analyzer.py**: This script analyzes the sizes of folders in the root directory of your system. 
 
-### API Token
-The `API_TOKEN` variable at the top of the script should be set to your own ipinfo.io API token. You can get a token by signing up at https://ipinfo.io/signup.
+## Prerequisites
 
-### Output
-The script outputs the following information about the IP address or domain name:
-```bash
-IP address
-Organization (if available)
-Hostname (if available)
-Country
-Region
-City
-Location (latitude and longitude)
-```
-The information is printed in a nicely formatted and colored output.
+Before running these scripts, make sure you have the following requirements installed:
 
-### Example
-```bash
-$ python cip.py google.com
+- Python 3.x
+- Additional dependencies mentioned in each script's README if any
 
-IP address: 142.251.33.206
+## Usage
 
-Organization: AS15169 Google LLC
-Hostname: fra16s32-in-f14.1e100.net
+Please refer to the individual README files for each script for detailed instructions on how to use them.
 
-Country: DE
-Region: Hesse
-City: Frankfurt am Main
+## License
 
-Location: 50.1212,8.6366
-```
+This code is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and use it in your own projects.
 
-### Credits
+## Contributions
 
-The requests library: https://requests.readthedocs.io/en/master/
+Contributions to this repository are welcome! If you have any improvements or additional scripts you'd like to add, please feel free to submit a pull request.
 
-The sty library: https://sty.mewo.dev/
+## Issues
 
-The ipinfo.io API: https://ipinfo.io/
+If you encounter any issues or have suggestions for improvements, please create an issue on the repository's issue tracker. We'll do our best to address them.
+
+Happy coding!
