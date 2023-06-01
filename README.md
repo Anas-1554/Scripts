@@ -6,7 +6,7 @@ Welcome to the Python Scripts! This repository contains a collection of Python s
 
 1. **random_string_generator.py**: This script generates a random string of specified length. I like to call it pass
 
-2. **ip_info.py**: This script retrieves information about IP addresses or domain names using the ipinfo.io API. I like to call it CIP ( Check IP info)
+2. **cip.py**: This script retrieves information about IP addresses or domain names using the ipinfo.io API. I like to call it CIP ( Check IP info) [Repo](https://github.com/Anas-1554/scripts/tree/main/cip)
 
 3. **folder_size_analyzer.py**: This script analyzes the sizes of folders in the root directory of your system. 
 
