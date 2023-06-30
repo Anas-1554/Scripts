@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import requests
 import json
 import argparse
@@ -7,28 +5,28 @@ import socket
 from tabulate import tabulate
 from sty import fg, bg, ef, rs
 
-# Set your API token here
-API_TOKEN = '[Key Here]'
+API_TOKEN = '64e88aff86d5f6'
 
 def print_colored(text, color):
-    """
-    Prints the given text in the given color.
-    """
+
     print(color + text + fg.rs)
 
+def remove_protocol(url):
+    if url.startswith('http://'):
+        return url[len('http://'):]
+    elif url.startswith('https://'):
+        return url[len('https://'):]
+    return url
 
 def get_ip_info(ip_address):
     url = f'https://ipinfo.io/{ip_address}?token={API_TOKEN}'
     response = requests.get(url)
 
-    # Check for API errors
     if response.status_code != 200:
         return None
 
-    # Parse JSON response
     data = json.loads(response.text)
     return data
-
 
 def main():
     parser = argparse.ArgumentParser(description='Get IP address information')
@@ -45,13 +43,13 @@ def main():
     table_rows = []
 
     for ip_or_domain in ip_or_domains:
+        ip_or_domain = remove_protocol(ip_or_domain)
+
         try:
-            # Check if IP address or domain name was passed
             socket.inet_aton(ip_or_domain)
             ip_addresses = [ip_or_domain]
         except OSError:
             try:
-                # Resolve domain name to IP addresses
                 ip_addresses = [item[4][0] for item in socket.getaddrinfo(ip_or_domain, None)]
             except socket.gaierror:
                 print_colored(f'Error retrieving information for {ip_or_domain}', fg.red)
@@ -89,7 +87,6 @@ def main():
             print(fg.green + 'City:' + fg.rs, row[5])
             print(fg.green + 'Location:' + fg.rs, row[6])
             print("\n")
-
 
 if __name__ == '__main__':
     main()
