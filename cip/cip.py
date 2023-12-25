@@ -5,7 +5,7 @@ import socket
 from tabulate import tabulate
 from sty import fg, bg, ef, rs
 
-API_TOKEN = '64e88aff86d5f6'
+API_TOKEN = ''
 
 def print_colored(text, color):
 
